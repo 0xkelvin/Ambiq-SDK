@@ -1,0 +1,13 @@
+# ninja log v5
+0	2221	7810584237506081	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/am_resources.o	42edeb56c870e33d
+3096	5788	7810584264413441	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/am_util_delay.o	63c78a962087e86f
+5793	7118	7810584284815121	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/handshake_gpio.o	a5c8355ca7e9c0e2
+7121	9050	7810584305834342	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/am_util_stdio.o	74ba8c16859bf5d4
+9235	10160	7810584316979112	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/startup_iar.o	b7a02bf3f519b763
+10162	11242	7810584328005223	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/uart_example_timer_control.o	e6744adc90c40e05
+11244	12668	7810584342269135	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/mpu_config.o	3287a2d38e93e4ae
+12670	13953	7810584355076979	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/uart_fullduplex_controller.o	216bd4a739a44b08
+13956	16037	7810584367225328	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/uart_fullduplex_common.o	b5a2437a60e618ba
+16040	16954	7810584385085061	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/uart_streaming_utils.o	9aa5fe68c65bcc8d
+16957	17579	7810584391184726	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/uart_fullduplex_controller.out	3ba4ed11c88fee68
+17582	17597	7810584391809687	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/controller/iar/bin/uart_fullduplex_controller.bin	aea0366e3c7a883c

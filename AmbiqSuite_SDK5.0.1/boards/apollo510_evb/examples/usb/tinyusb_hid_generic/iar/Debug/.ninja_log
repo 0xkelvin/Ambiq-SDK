@@ -1,0 +1,17 @@
+# ninja log v5
+1	1099	7810589697219689	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_resources.o	4a338b8db008c26
+1150	2157	7810589707739070	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_util_delay.o	681707aacc7c108f
+2161	3275	7810589719124385	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/dcd_apollo5.o	d9081639c6dbf177
+3277	4949	7810589735713595	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_util_id.o	570a10d1ac204126
+4980	6529	7810589751170851	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/hid_device.o	c2e426635adce259
+6532	8373	7810589769903371	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_util_stdio.o	ef7bca852aa7ec5b
+8376	9366	7810589779846428	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/apollo5_board.o	dba75ffdc57ab4b8
+9368	10449	7810589789842511	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/tinyusb_hid_generic.o	453f383ae62f6f1e
+10452	11998	7810589806242851	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/tusb_fifo.o	df1712aa61097ae6
+12002	12731	7810589812343846	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/startup_iar.o	8dca1ffb8250648c
+12734	14492	7810589829641407	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/tusb.o	2559c72672bc8262
+14494	15752	7810589843571480	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/usb_descriptors.o	51ac3f47afc546d
+15755	17844	7810589864809289	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/usbd.o	e0f35cc4b3e7522d
+17847	18947	7810589875931551	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/usbd_control.o	76254c6067f63573
+18950	20187	7810589888453525	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/tinyusb_hid_generic.out	18d95c10014281c2
+20190	20210	7810589888922339	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/usb/tinyusb_hid_generic/iar/bin/tinyusb_hid_generic.bin	a5b06d48b4d5e75a

@@ -1,0 +1,13 @@
+# ninja log v5
+0	1052	7810575499561711	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/am_devices_dc_xspi_raydium.o	cce195b104363fc6
+1054	2087	7810575509814721	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/am_resources.o	21b6200588144f1e
+2092	3044	7810575519613080	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/nema_hal.o	c995eda63470e044
+3046	4170	7810575530889862	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/nema_dc_hal.o	6d9a55721cd5adee
+4173	4426	7810575533561154	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/am_util_stdio.o	e6a2ba4a003a8cef
+4429	4524	7810575534594086	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/nema_event.o	8f70b2ae13162f5f
+4526	5453	7810575543604603	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/am_util_delay.o	b4665a9eb702bf0d
+5454	6678	7810575555983410	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/nema_utils.o	8e1a0f264582ef66
+6681	7221	7810575561531986	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/startup_iar.o	1adba41517218edf
+7224	9394	7810575582978918	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/nemadc_xspi_configurations.o	ea1a1fb810c8ad95
+9396	9820	7810575587409955	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/nemadc_xspi_configurations.out	859e8eead659262c
+9824	9844	7810575588169951	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_xspi_configurations/iar/bin/nemadc_xspi_configurations.bin	ed5991a88da5080f

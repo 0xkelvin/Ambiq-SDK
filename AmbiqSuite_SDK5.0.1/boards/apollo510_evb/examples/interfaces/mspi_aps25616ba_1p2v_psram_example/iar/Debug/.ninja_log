@@ -1,0 +1,10 @@
+# ninja log v5
+0	1365	7810581375954853	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/am_devices_mspi_psram_aps25616ba_1p2v.o	59dba7cee653c9b8
+1702	3181	7810581392932526	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/am_resources.o	66393dcaf55cd16b
+3186	4307	7810581405257856	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/startup_iar.o	41501a9876724ad8
+4310	5529	7810581416899220	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/am_util_delay.o	31144e0a77411197
+5563	7553	7810581437896241	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/am_util_faultisr.o	2d4e66dac0a23c63
+7555	7907	7810581441457594	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/am_util_stdio.o	ebadfafb64675cef
+7910	9024	7810581452309576	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/mspi_aps25616ba_1p2v_psram_example.o	418b0b6782c1b92b
+9026	9660	7810581458791624	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/mspi_aps25616ba_1p2v_psram_example.out	a6e39edbc65c8b10
+9663	9684	7810581459605498	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_aps25616ba_1p2v_psram_example/iar/bin/mspi_aps25616ba_1p2v_psram_example.bin	bf8735f91d42f156

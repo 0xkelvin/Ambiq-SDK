@@ -1,0 +1,9 @@
+# ninja log v5
+0	953	7810588835245125	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/am_resources.o	44c35780a8359343
+955	1892	7810588844660751	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/am_util_delay.o	520ffd8237487a12
+1896	2885	7810588854381941	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/am_util_faultisr.o	64a434f2a1a5b629
+2887	3152	7810588857350657	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/am_util_stdio.o	acb6e16342e79d85
+3186	3711	7810588862762619	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/startup_iar.o	90c20d786b8d3024
+3713	4818	7810588873778867	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/tempco.o	231a1d5175d24294
+4820	5293	7810588878778933	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/tempco.out	196c0dcc60176224
+5295	5333	7810588879403915	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/tempco/iar/bin/tempco.bin	acc5af41c161ac61

@@ -1,0 +1,14 @@
+# ninja log v5
+0	1137	7810577824035569	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/am_devices_chsc5816_ap5.o	22ac711d4462fd4f
+1140	2316	7810577835974652	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/am_devices_display_generic.o	95eb744786662336
+2320	3432	7810577847094301	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/nema_dc_hal.o	a69462f707a9bf1f
+3435	3558	7810577848344308	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/nema_event.o	fc382eada5775126
+3562	3852	7810577851187103	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/am_util_stdio.o	aabdf80344849e81
+3854	4705	7810577859949313	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/am_resources.o	8748fa14ead56a87
+4708	5635	7810577868925309	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/am_util_delay.o	8e3fa4ffbf558cc9
+5638	6364	7810577876427997	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/startup_iar.o	914a063c12a9187a
+6367	7589	7810577888642678	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/nema_hal.o	55fdf661ffba12b3
+7591	9275	7810577905538119	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/nemagfx_tp_rotating_zoom.o	262b1aaec725f612
+9279	10344	7810577916292879	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/nema_utils.o	c30d44b6c61b76bc
+10348	10892	7810577921650096	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/nemagfx_tp_rotating_zoom.out	2401bf73c88e1500
+10896	10918	7810577922620108	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tp_rotating_zoom/iar/bin/nemagfx_tp_rotating_zoom.bin	38d275db7912924b

@@ -1,0 +1,9 @@
+# ninja log v5
+1	1021	7810580912603053	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/am_resources.o	9f831661f58bf81c
+1027	2089	7810580922833370	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/am_util_delay.o	932a85c4dc3508c
+2093	2611	7810580928666200	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/startup_iar.o	72a9bbab9f83360a
+2614	2883	7810580931354672	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/am_util_stdio.o	9744616a910efde5
+2890	3837	7810580940848159	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/ios_fifo_common.o	c230e7a0b406e1fe
+3838	4926	7810580951657290	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/ios_fifo_controller.o	ed232f3ea97a7204
+4929	6192	7810580959727037	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/ios_fifo_controller.out	5ab70e6cd55bd921
+6195	6229	7810580965238349	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fifo/controller/iar/bin/ios_fifo_controller.bin	9c9fba4605d1a1e0

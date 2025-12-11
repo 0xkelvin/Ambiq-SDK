@@ -1,0 +1,11 @@
+# ninja log v5
+0	1148	7810584634620686	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/am_util_delay.o	53933383ffd4b04
+1359	2833	7810584647904998	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/am_resources.o	ef5869468e1fe9a1
+2837	3615	7810584658696922	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/startup_iar.o	cb1f5aeef9999dfe
+3617	4193	7810584664988344	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/am_util_string.o	e2df7fdf48db9fcd
+4226	5856	7810584681815033	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/am_util_stdio.o	381023878a7da462
+5857	6890	7810584692048733	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/am_util_faultisr.o	5eab4e4e2620c68e
+6891	7879	7810584701793090	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/am_util_id.o	6205be3a74dff912
+7881	10097	7810584724382169	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/uart_ios_bridge.o	5db8bac06eeb3252
+10100	10481	7810584727507186	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/uart_ios_bridge.out	6774c971cf58f400
+10484	10500	7810584728698547	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_ios_bridge/iar/bin/uart_ios_bridge.bin	a5b99aee0b535afb

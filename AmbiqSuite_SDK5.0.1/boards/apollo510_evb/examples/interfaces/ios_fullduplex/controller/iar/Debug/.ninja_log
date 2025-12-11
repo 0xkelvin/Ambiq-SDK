@@ -1,0 +1,9 @@
+# ninja log v5
+1	1090	7810581169822104	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/am_util_delay.o	271cffc5b74f75d0
+1169	2235	7810581181393624	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/am_resources.o	85f1ae75861720d6
+2239	3031	7810581189133783	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/startup_iar.o	6bb1af59b5914b68
+3033	3571	7810581194915028	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/am_util_stdio.o	964ab5b187e44487
+3578	4608	7810581204727055	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/ios_fullduplex_common.o	829fb76d3b033978
+4610	6422	7810581223278566	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/ios_fullduplex_controller.o	79f89be0791d7bcc
+6425	6986	7810581228747565	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/ios_fullduplex_controller.out	3f004e0731c4f938
+6989	7039	7810581229841310	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_fullduplex/controller/iar/bin/ios_fullduplex_controller.bin	c2b56c9b219412c

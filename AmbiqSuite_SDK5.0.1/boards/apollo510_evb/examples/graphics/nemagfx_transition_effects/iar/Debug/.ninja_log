@@ -1,0 +1,25 @@
+# ninja log v5
+1	957	7810577958533412	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/am_util_delay.o	9ad7faa59836b8cf
+959	1256	7810577961516896	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/am_util_stdio.o	17e82bbffef52362
+1261	1458	7810577963736881	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/heap_4.o	1bc7f07493fe505
+1460	1588	7810577964995596	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/gui_task.o	69a5c16bf1a85582
+1591	1800	7810577966955601	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/event_groups.o	52225d39ad690159
+1801	3034	7810577979228631	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/nema_dc_hal.o	5337d0d66a3ee65b
+3037	3136	7810577980488616	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/nema_event.o	224711e11d698b28
+3139	3270	7810577981891069	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/list.o	d6ef3d43817e3dc8
+3272	4226	7810577991154046	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/nema_hal.o	577eaab2aa2f7dca
+4228	5384	7810578002453210	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/am_devices_display_generic.o	98a71b28ac6d3326
+5387	6515	7810578013929423	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/am_resources.o	edcd4b392b95838f
+6518	7512	7810578024163871	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/nema_utils.o	22b7372c35e9bdf7
+7514	8641	7810578035209363	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/port_systick_stimer.o	3bcfeeb8aa89662b
+8644	8809	7810578037179372	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/port.o	febe1947981f2a80
+8812	12810	7810578076848636	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/nemagfx_transition_effects.o	17f391eecc58d562
+12812	14108	7810578089937832	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/port_stimer.o	d2b54019c2dd0090
+14111	14916	7810578097627700	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/tasks.o	ab4e17da19a39a45
+14919	15209	7810578101208444	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/timers.o	81d37ab697063a74
+15211	15688	7810578105597205	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/queue.o	46080d66bf22bfa4
+15690	16396	7810578113146991	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/startup_iar.o	3087eb2b36962470
+16398	17387	7810578122913798	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/rtos.o	61e288b8c3153844
+17389	17486	7810578124239346	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/portasm.o	ce5dee2cf1579008
+17489	17969	7810578128807950	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/nemagfx_transition_effects.out	6842d9fcb9089a60
+17970	18036	7810578129797945	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_transition_effects/iar/bin/nemagfx_transition_effects.bin	41270912b2deb512

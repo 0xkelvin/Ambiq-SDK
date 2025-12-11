@@ -1,0 +1,11 @@
+# ninja log v5
+0	1100	7810583202631120	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/am_util_delay.o	deeb2a9f3aa9b2a4
+1114	2509	7810583217040654	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/am_resources.o	b9f91883b25766e1
+2513	3728	7810583229344184	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/hello_world_uart_stream.o	21b2db070728c426
+3731	4258	7810583234659899	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/am_util_stdio.o	f6c5662c8dd68d50
+4492	5606	7810583248053446	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/am_util_id.o	fa188413514b2732
+5607	5891	7810583251395570	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/am_util_string.o	39232a1781f76fd1
+5893	7019	7810583262454494	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/am_util_faultisr.o	7136569a84ef4752
+7021	8147	7810583273543242	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/startup_iar.o	5604c4906b502574
+8149	9793	7810583290036114	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/hello_world_uart_stream.out	99e1802577e57e42
+9795	9835	7810583290966109	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/hello_world_uart_stream/iar/bin/hello_world_uart_stream.bin	bf1b92fbed53559

@@ -1,0 +1,16 @@
+# ninja log v5
+0	1458	7810581503104011	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/am_resources.o	dde72aee27a18493
+1670	1941	7810581509144263	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/am_util_stdio.o	b068f19339597914
+1945	3295	7810581522632333	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/am_util_faultisr.o	18b088572e2bc6
+3297	4308	7810581532598091	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/am_util_delay.o	311c6205c72d0ce4
+4523	5895	7810581547783199	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/nemagfx_heap_customize.o	528f3677741f6b4
+5898	6792	7810581557269162	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/startup_iar.o	10a2f4c2cbf2c672
+6795	8248	7810581571846874	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/nema_hal.o	3e316b4635fa9ba4
+8250	9736	7810581586502826	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/nema_dc_hal.o	d28130de0a486632
+9739	9963	7810581589332813	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/nema_event.o	4fdc706253b3b939
+9967	11395	7810581603318942	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/nema_utils.o	c1bf4d4c42d558bf
+11398	13908	7810581628438542	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/mspi_hex_ddr_psram_bandwidth_example.o	b3a06b4ae93ed12c
+13911	15199	7810581641579930	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/am_hal_cmdq.o	e0c430cefa48e3f0
+15204	16779	7810581657508342	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/am_hal_mspi.o	2be6bcfc325bcce8
+16781	17272	7810581662397177	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/mspi_hex_ddr_psram_bandwidth_example.out	f2827fce2a5db20d
+17275	17293	7810581663048372	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_hex_ddr_psram_bandwidth_example/iar/bin/mspi_hex_ddr_psram_bandwidth_example.bin	1387f1c31395cc1b

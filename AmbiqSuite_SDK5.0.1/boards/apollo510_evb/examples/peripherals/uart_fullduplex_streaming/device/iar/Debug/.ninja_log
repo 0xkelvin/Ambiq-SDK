@@ -1,0 +1,13 @@
+# ninja log v5
+0	4051	7810584456099032	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/am_resources.o	d9dd4c3ed9f3d583
+4056	5044	7810584466323639	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/am_util_delay.o	9b299223c1296ba
+5048	6674	7810584481457932	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/uart_example_timer_control.o	a4b41a3847452330
+6677	7995	7810584495542935	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/startup_iar.o	231773398e96295f
+8016	9123	7810584506956088	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/mpu_config.o	8f84f1e754505599
+9125	10877	7810584524332132	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/am_util_stdio.o	edd6b228ee5ad004
+10879	12065	7810584536225621	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/handshake_gpio.o	23fea83372d69cf
+12066	14656	7810584562365710	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/uart_fullduplex_common.o	92d05b01e1e36d6a
+14659	15695	7810584572237382	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/uart_streaming_utils.o	686b0c71966c0d26
+15699	16871	7810584584226986	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/uart_fullduplex.o	6b23bb70fbe21b95
+16874	17464	7810584590498639	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/uart_fullduplex.out	7149df0304560ce1
+17467	17488	7810584591185055	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_fullduplex_streaming/device/iar/bin/uart_fullduplex.bin	5498ec7cda8d4872

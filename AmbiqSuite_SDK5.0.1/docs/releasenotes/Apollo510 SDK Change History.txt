@@ -1,0 +1,210 @@
+**********************************************************************************************
+ 
+Apollo510 R5.0.1 release on Oct 03, 2025 (revision release_sdk5p0p1-61912905f0).
+ 
+**********************************************************************************************
+----------------------------------------------------------------------------------------------
+Summary of Changes and Customer Impacts, as compared to SDK 5.0.0
+----------------------------------------------------------------------------------------------
+
+This release supports updates to Apollo510.
+
+This release includes the following:
+* Updated TinyUSB to v0.18.0.
+* Updated SEGGER RTT to version 8.56a. 
+* LVGL v9.3 support is now available on GitHub. Please visit https://github.com/AmbiqMicro/lv_port_ambiq.
+  Please see lv_port_ambiq/docs/ for the integration and memory management guides. 
+* Updates to SPOTManager Implementation to better handle VDDC-VDDF separation issue
+* Updated SBL & MRAM Recovery Assets
+
+Following are specific Application considerations when using the HAL:
+- AmbiqSuite HAL manages the SoC power consumption to always operate in the most optimal conditions, using a
+  number of   internal power states. Transitions from one state to another may require some sequences which
+  are not instantaneous. For some of these transitions, HAL implements an internal state machine to let normal
+  operations continue to work while the power management transition is happening in the background. To manage
+  this internal state machine, HAL uses an internal Timer, as defined by AM_HAL_INTERNAL_TIMER_NUM_A.
+  * Option AM_HAL_SPOTMANAGER_USE_TIMER_OR_BLOCKING_DELAY can used to override the default implementation, and instead 
+  use blocking delay.
+  * Applications are expected to always keep this interrupt enabled and at a high priority to ensure the
+  interrupt service latency is kept to a minimum.
+  ==> If guaranteeing low latency for this interrupt is not possible, AM_HAL_SPOTMANAGER_TIMER_DOUBLEBOOST should
+  be disabled.
+- Low Power Initialization Sequence requirements:
+  Applications are required to follow the below sequence for initialization:
+  am_hal_pwrctrl_low_power_init -> am_hal_pwrctrl_control (AM_HAL_PWRCTRL_CONTROL_SIMOBUCK_INIT) -> am_hal_pwrctrl_temp_update()
+- Multi-image transition requirements
+  For multi-image situations, application must turn off all peripherals, get back to LP mode (if needed), and call 
+  am_hal_pwrctrl_settings_restore() before exiting one application to transition to other
+
+----------------------------------------------------------------------------------------------
+Software Known Issues, Updates, and Defect Fixes
+----------------------------------------------------------------------------------------------
+\mcu\apollo510\hal\am_hal_usb.h
+\third_party\tinyusb\ambiq_port\apollo5\dcd_apollo5.c
+*	Implemented a unified macro that takes in USB handle and reads and triggers the interrupt service.
+    Existing code will still work as this macro makes use of existing interfaces without modifying them.
+
+\mcu\apollo510\hal\am_hal_usb.c
+*   Implemented SentStall bit protection for the IDX0 register. The TinyUSB stack, when control endpoint
+    stall is needed, will issue 2 stall commands to the USB HAL, one for control IN endpoint, another for
+    control OUT endpoint. Apollo510's USB combines both control endpoints into a single register.
+    This update protects SentStall bit from being wrongly set to zero under certain corner conditions.
+
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_2.c
+*   Placed am_hal_spotmgr_wfi_wait in ITCM and implemented software runtime compensation for both 
+    HP and LP mode. Adding compensation for the wake-up time from deepsleep. This only applies if using 
+    AM_HAL_SPOTMGR_REPLACE_DELAY_WITH_WFI (which is not the default)
+*   Force HFRC2 ON in SWITCH_TO_HP in spotmgr HAL. 
+
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_2.c
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_1.c
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_0.c
+\mcu\apollo510\hal\am_hal_pwrctrl.c
+\mcu\apollo510\hal\am_hal_spotmgr.*
+*   Re-calculated VDDF trims and adjusted trim sequences for PCM2.1 and PCM2.2 spotmgr to handle VDDC-VDDF 
+    separation issue.
+*   Added the support for reporting temperature before SIMOBUCK init for PCM2.0 & PCM2.1 & PCM2.2.
+*   Added an option to allow spotmgr to run with double boost or single boost for PCM2.1 and PCM2.2,
+    the default is double boost.
+*   Added an option to allow spotmgr to run with timer delay or blocking delay for PCM2.1 and PCM2.2 spotmgr,
+    the default is timer delay.
+*   Added a safe power state for PCM2.1 spotmgr. Updated the SIMOBUCK init sequences and power setting restore
+    sequences for PCM2.0 & PCM2.1 & PCM2.2 to guarantee MCU always works at safe power state.
+*   Updated PCM2.1 and PCM2.2 buck pulse characteristics to improve VDDC_LV load regulation under certain load conditions.
+*   Implemented fix for rare SRAM retention failure issue found at low temperatures below 0C for PCM2.1 and PCM2.2. 
+
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_2.c
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_1.c
+\mcu\apollo510\hal\am_hal_pwrctrl.c
+*   Added return code check when calling am_hal_spotmgr_power_state_update from pwrctrl HAL. 
+*   Added return code status checks in am_hal_spotmgr_pcm2_1 and _pcm_2_2. 
+
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_2.c
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_1.c
+\mcu\apollo510\hal\am_hal_sysctrl.c
+\mcu\apollo510\hal\am_hal_spotmgr.*
+*   Fixed a bug where g_bVddcaorVddcpuOverride and g_bHpToDeepSleep were not updated according to the 
+    real power state.
+*   Fixed bug causing SIMOBUCK to not stay active during deepsleep if only SYSPLL is enabled.
+
+\mcu\apollo510\hal\am_hal_spotmgr_pcm2_0.c
+*   Fixed a logical bug in g_bIsPCM2p0Unscreened assignment.
+*   Force SIMOBUCK active during deepsleep if any stimer/timer instance is using either the HFRC, HFRC2, 
+    or a GPIO external clock.
+
+\mcu\apollo510\hal\am_hal_spotmgr.c
+*   Fixed a low temperature crash issue on PCM1.0 and PCM1.1 parts.
+
+\mcu\apollo510\hal\am_hal_pwrctrl.*
+*   Added SDIO power status check to am_hal_pwrctrl_settings_restore.
+*   Updated peripheral power enums. 
+*   Updated peripheral status masks in am_get_pwrctrl(). 
+*   Added AM_HAL_PWRCTRL_MCU_MODE_HPMAX definition for the SoC's highest performance mode.
+
+\mcu\apollo510\hal\am_hal_i2s.*
+*   Added runtime control over channel number for mono mode operation.
+
+\mcu\apollo510\hal\am_hal_global.c
+*   Removed ARM5 compiler macro check and merged ARM6 and gcc to GNUC. Where allowed, added separate check for
+    gcc compiler to allow naked attribute with input parameters.
+
+\mcu\apollo510\hal\am_hal_clkmgr.*
+*   Added am_hal_clkmgr_control() API that allows for configuring certain behavior of the clock manager.
+    The option available is AM_HAL_CLKMGR_DISABLE_HFADJ_ON_FULL_RELEASE, which allows the clock manager  
+    to disable HFADJ when the last HFRC clock user has released the clock.
+*   Updated EXTREFCLK handling for Apollo510 Blue.
+
+\mcu\apollo510\hal\mcu\am_hal_uart.c
+*   Updated am_hal_uart_tx_flush() to properly wait for transmit to finish, added timeout error checking.
+
+\mcu\apollo510\hal\mcu\am_hal_sysctrl.c
+*   Added handling to am_hal_sysctrl_sleep() for the HAL-based timer interrupt. If the HAL timer event has fired,
+    the interrupt will be handled, and the SoC will return to deepsleep if there are no other events to be
+    serviced. This only applies if using AM_HAL_SPOTMGR_REPLACE_DELAY_WITH_WFI (which is not the default)
+*   Updated the sleep function to ensure the correct power state update. 
+*   Updated the normal sleep config to set eElpConfig to AM_HAL_PWRCTRL_ELP_RET. 
+
+\mcu\apollo510\hal\mcu\am_hal_mspi.*
+*   Updated am_hal_mspi_control() for Zephyr API compatibility.
+*   Added XIP base address alignment check in am_hal_mspi_control().
+*   Deprecated USE_NEW_DDR mode support.
+
+\mcu\apollo510\hal\mcu\am_hal_mcuctrl.c
+*   Fixed a bug when identifying MCU trim levels for B1 devices.
+*   Fixed bug in am_hal_mcuctrl_control that resulted in zeroing out the XTALHSTRIMS_XTALHSDRIVERSTRENGTH bits.
+*   Defined JEDEC_RD_DELAY as am_hal_delay_us(1). This change prevents a logic issue from occurring after 
+    back-to-back reads of CM55 ROM table data, which would prevent the debug domain, PWRCTRL->DEVPWRSTATUS_b.PWRSTDBG
+    from powering down. This would sometimes occur in am_hal_mcuctrl_info_get(AM_HAL_MCUCTRL_INFO_DEVICEID),
+    which is called by am_util_id_device() in several SDK examples.
+
+\mcu\apollo510\hal\mcu\am_hal_iom.*
+*   Updated IOM clock configuration logic to improve output frequency accuracy and duty cycle symmetry. 
+    Selection options are detailed in am_hal_iom.h, please see am_hal_iom_clock_sel_priority_e.
+
+\mcu\apollo510\hal\mcu\am_hal_dsi.*
+*   Added API to support non-blocking wait callback during the ULPS exit pattern transmission. If 
+    the callback is not used, the default delay of 1010us will be applied in am_hal_dsi_ulps_exit(). 
+*   Added suport for DSI continuous clock mode.    
+
+\mcu\apollo510\hal\mcu\am_hal_card.c
+*   Added cache management for SDIO timing scan functionality. 
+
+\mcu\apollo510\hal\mcu\am_hal_cachectrl.*
+*   Added cache power control api am_hal_cachectrl_caches_power_control(). 
+
+\mcu\apollo510\hal\am_hal_stimer.c
+*   Added STIMER atomic operations to improve operation in read/write/modify situations.
+*   Added out of range error checking for am_hal_stimer_capture_start and _stop.
+
+\mcu\apollo510\hal\mcu\am_hal_ios.c
+*   Updated am_hal_ios_power_ctrl with updated am_hal_pwrctrl_periph_e enum. 
+*   Modified the order of checks for DMA FIFO size overflow, DMAFOVF, and created am_hal_ios_dma_status_get to get dma status. 
+
+\mcu\apollo510\hal\mcu\am_hal_uart_stream.*
+*   Allowed the use of internal RX_timeout interrupt during RX DMA.
+*   Added an API to set RX DMA parameters, including timeout, am_hal_uart_stream_enable_rxDmaParms().
+*   Corrected register mask usage (_POS vs. _msk) to align with intended behavior.
+
+\CMSIS\AmbiqMicro\Include\apollo510.h
+*   Exposed PUF RNG register in OTP and included new example.
+*   Added enums for UART->FR_b.TXBUSY. 
+
+\devices\am_devices_display_generic.*
+*   Added support for dual-lane displays. 
+*   Fixed a potential race condition within am_devices_display_transfer_frame_inter() for TE-enabled displays.
+
+\devices\am_devices_em9305.*
+\ambiq_ble\apps\dtm_module_em9305\dtm_main.c
+*   Added EM9305 SPI RDY pin pull-down functionality. This function configures the pin to use an internal pull-down resistor if needed,
+    preventing improper signal handling in systems where the pin may float. This function is called in am_devices_em9305_reset().
+*   Added 50us delay before pulling CS pin high in am_devices_em9305_tx_ends() to prevent HCI command timeouts.
+*   Updated am_devices_em9305_init to check if the device has already been initialized.
+*   Added device shutdown, sleep control, and high frequency crystal trim set APIs. Added EM9305 request tracking to prevent improper 
+    handling of EM9305 if a component still has an active request to the device.
+*   Optimized code logic for high-frequency clock trim setting.
+
+\devices\am_devices_mspi_psram_aps25616ba_1p2v.c
+*   Updated nonDQS-mode turnaround setting.
+
+\tools\apollo510_scripts\sbl_updates\sbl_ap5b_v1p23
+\tools\apollo510_scripts\mram_recovery\ambiq_recovery_images\
+*   Updated SBL to v1p23 and the associated recovery images. Please see \tools\apollo510_scripts\sbl_updates\history.txt for details
+
+\third_party\tinyusb\ambiq_port\apollo5\dcd_apollo5.c 
+*   Added support to select USB speed in dcd_init.
+*   Added direct USB interrupt handling through tusb_int_handler() as expected by current tusb version.
+*   Added auto USB clock source select with board config. 
+*   Added Apollo510B support for extrefclk source. 
+
+\third_party\ThinkSi\config\apollo510_nemagfx\nema_dc_hal.c
+*   To ensure optimal performance, it is recommended to allocate framebuffers in internal SSRAM. If the framebuffer must be placed in external memory, such as PSRAM, the application must ensure that the available external memory bandwidth exceeds the display rendering throughput. Bandwidth limitations, whether caused by insufficient interface frequency or contention from concurrent memory access activities such as XIP, may result in display image corruption. As a mitigation, we have added support to manually control the DBIB_CSX signal. This allows the application to avoid the risk of display corruption, but comes at the cost of an increased CPU load.
+
+\third_party\LVGL\lvgl\src\misc\lv_mem.c
+*   Updated for the mode that disables external PSRAM use, USE_NON_PSRAM_MODE
+
+\third_party\LVGL\ambiq_support\lv_ambiq_touch.c
+*   Added support for apollo510_evb and apollo510b_evb
+
+\third_party\cordio\ble-host\sources\hci\ambiq\em9305\hci_drv_em9305.h
+*   HCI_LE_SUP_FEAT_POWER_CONTROL_REQUEST and HCI_LE_SUP_FEAT_POWER_CHANGE_IND flags in LL_FEATURES_BYTE4 have been temporarily removed to prevent Pairing
+    issues with some type of phones that send out LLCP Power Control request. Will be re-added back once the fix is implemented.

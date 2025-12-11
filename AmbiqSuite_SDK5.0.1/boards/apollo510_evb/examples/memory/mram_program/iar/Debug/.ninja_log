@@ -1,0 +1,9 @@
+# ninja log v5
+1	1923	7810581848036290	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/am_resources.o	78223650b3af9923
+2039	3218	7810581861050474	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/am_util_delay.o	a708183bcd0b24
+3222	4037	7810581869256572	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/startup_iar.o	5172e95c40953562
+4040	5392	7810581882880463	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/am_util_faultisr.o	3549856be853c9a3
+5590	6022	7810581889271306	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/am_util_stdio.o	1bed59af38203ca3
+6024	6986	7810581898695642	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/mram_program.o	6527220b3e9b55d5
+6988	8107	7810581905267284	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/mram_program.out	de33e4724c4ef77a
+8110	8131	7810581910753176	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/memory/mram_program/iar/bin/mram_program.bin	c920b4c8a4b2aa95

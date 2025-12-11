@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['i2c_0',['I2C',['../group__iom4__ap510.html',1,'IOM - IO Master (SPI/I2C)'],['../group__ios4__ap510.html',1,'IOS - IO Slave (SPI/I2C)']]],
+  ['i2c_20touch_20driver_1',['I2C Touch Driver',['../group__devices__chsc5816.html',1,'CHSC5816 - I2C Touch Driver'],['../group__devices__tma525.html',1,'TMA525 - I2C Touch Driver']]],
+  ['i2c_20touch_20driver_20apollo510_2',['CHSC5816 - I2C Touch Driver (Apollo510)',['../group__devices__chsc5816__ap5.html',1,'']]],
+  ['i2s_20inter_20ic_20sound_3',['I2S - Inter-IC Sound',['../group__i2s4__ap510.html',1,'']]],
+  ['ic_20sound_4',['I2S - Inter-IC Sound',['../group__i2s4__ap510.html',1,'']]],
+  ['id_20utility_20functions_5',['ID Utility Functions',['../group__id__utils.html',1,'']]],
+  ['implementation_6',['Queue Implementation',['../group__queue4__ap510.html',1,'']]],
+  ['info_20functionality_7',['INFO Functionality',['../group__info5__ap510.html',1,'']]],
+  ['infoc_20one_20time_20programmable_8',['INFOC - One-Time Programmable',['../group__infoc__ap510.html',1,'']]],
+  ['input_20output_9',['GPIO - General Purpose Input Output',['../group__gpio__ap510.html',1,'']]],
+  ['instrumentation_20trace_20macrocell_10',['ITM - Instrumentation Trace Macrocell',['../group__itm4__ap510.html',1,'']]],
+  ['inter_20ic_20sound_11',['I2S - Inter-IC Sound',['../group__i2s4__ap510.html',1,'']]],
+  ['interface_12',['DSI - Display Serial Interface',['../group__dsi__ap510.html',1,'']]],
+  ['interface_20unit_13',['TPIU - Trace Port Interface Unit',['../group__tpiu4__ap510.html',1,'']]],
+  ['interrupt_20arm_20nvic_20support_20functions_14',['Interrupt ARM NVIC support functions',['../group__interrupt__ap510.html',1,'Interrupt - ARM NVIC support functions'],['../group__mcu__interrupt__ap510.html',1,'MCU Interrupt - ARM NVIC support functions']]],
+  ['io_20master_20spi_20i2c_15',['IOM - IO Master (SPI/I2C)',['../group__iom4__ap510.html',1,'']]],
+  ['io_20slave_20spi_20i2c_16',['IOS - IO Slave (SPI/I2C)',['../group__ios4__ap510.html',1,'']]],
+  ['iom_20io_20master_20spi_20i2c_17',['IOM - IO Master (SPI/I2C)',['../group__iom4__ap510.html',1,'']]],
+  ['ios_20io_20slave_20spi_20i2c_18',['IOS - IO Slave (SPI/I2C)',['../group__ios4__ap510.html',1,'']]],
+  ['is25wx064_20mspi_20flash_20driver_19',['IS25WX064 MSPI Flash Driver',['../group__devices__mspi__is25wx064.html',1,'']]],
+  ['isr_20utility_20functions_20',['Fault ISR Utility Functions',['../group__faultisr__utils.html',1,'']]],
+  ['itm_20instrumentation_20trace_20macrocell_21',['ITM - Instrumentation Trace Macrocell',['../group__itm4__ap510.html',1,'']]]
+];

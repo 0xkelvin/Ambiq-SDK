@@ -1,0 +1,11 @@
+# ninja log v5
+1	1528	7810582094529877	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/am_devices_mspi_is25wx064.o	67d6ca665a5819a1
+1531	4689	7810582123570526	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/am_devices_mspi_atxp032.o	ddb5e37b45506f66
+4694	6164	7810582140384729	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/am_util_faultisr.o	97a749c0f54a55e6
+6166	7464	7810582153546697	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/am_util_delay.o	5ee6ba2733419d42
+7732	8194	7810582161066918	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/am_util_stdio.o	bdecef475a23e37a
+8196	9488	7810582174014724	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/nvloader_app.o	eaa515b01fe0704e
+9490	10724	7810582186430090	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/am_resources.o	ae598e1dd19f0446
+10728	12093	7810582195015868	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/startup_iar.o	2cdef263ec3d5552
+12104	13304	7810582212389051	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/nvloader_app.out	105667d3b344a3f3
+13306	13322	7810582212989022	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/mram_recovery/nvloader_app/iar/bin/nvloader_app.bin	133cd8b0c13b8382

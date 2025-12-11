@@ -1,0 +1,94 @@
+**********************************************************************************************************
+Apollo510 SDK5.0.1 for release on Oct 03, 2025. (GIT SHA release_sdk5p0p1-61912905f0)
+
+This release of the Apollo510 Family SDK includes support for PCM 2.0, 2.1, and 2.2 devices.
+
+**********************************************************************************************************
+
+SDK includes a set of examples.  See /boards/*/examples.
+
+IDE/ToolChain Support:
+----------------------
+AmbiqSuite SDK supports GCC, Keil, and IAR IDEs.
+- GCC: 13.2.1
+- Keil: ARMCC 6230001 (MDK version 5.42)
+- IAR EWARM: 9.60.4 
+
+- Notes about this release:
+    * For Segger J-Link debuggers, Apollo510 is supported installing v8.12g or later. 
+    * For Keil MDK, Apollo510 is supported by installing the CMSIS Ambiq Pack AmbiqMicro.Apollo_DFP.1.5.0.
+    * For IAR, this release was built with and tested on release 9.60.4, which natively supports Apollo510. 
+    * By default, Apollo510 projects in this release select the AP510NFA-CBR BGA device.
+    * Apollo510 CSP devices are supported by the common AP510NFA-CCR target.
+
+Application considerations when using the HAL:
+----------------------------------------------
+- AmbiqSuite HAL manages the SoC power consumption to always operate in the most optimal conditions, using a
+  number of   internal power states. Transitions from one state to another may require some sequences which
+  are not instantaneous. For some of these transitions, HAL implements an internal state machine to let normal
+  operations continue to work while the power management transition is happening in the background. To manage
+  this internal state machine, HAL uses an internal Timer, as defined by AM_HAL_INTERNAL_TIMER_NUM_A.
+  * Option AM_HAL_SPOTMANAGER_USE_TIMER_OR_BLOCKING_DELAY can used to override the default implementation, and instead 
+  use blocking delay.
+  * Applications are expected to always keep this interrupt enabled and at a high priority to ensure the
+  interrupt service latency is kept to a minimum.
+  ==> If guaranteeing low latency for this interrupt is not possible, AM_HAL_SPOTMANAGER_TIMER_DOUBLEBOOST should
+  be disabled.
+- Low Power Initialization Sequence requirements:
+  Applications are required to follow the below sequence for initialization:
+  am_hal_pwrctrl_low_power_init -> am_hal_pwrctrl_control (AM_HAL_PWRCTRL_CONTROL_SIMOBUCK_INIT) -> am_hal_pwrctrl_temp_update()
+- Multi-image transition requirements
+  For multi-image situations, application must turn off all peripherals, get back to LP mode (if needed), and call 
+  am_hal_pwrctrl_settings_restore() before exiting one application to transition to other
+
+Known Issues:
+----------------------
+- MRAM Recovery: The use of an external 1.8V USB->UART adapter connected to Apollo510 UART1 is required 
+  when using the supplied "uart_recovery_host.py" script with the Apollo510 EVB.
+    * Please see the example info0 configuration file "info0_Recovery_UART1.ini" in the 
+      \tools\apollo510_scripts\mram_recovery\example_info0_configs directory for setup instructions.
+
+Top Level Directory Structure:
+------------------------------
+
+.
+├── AM-BSD-EULA.txt
++---boards
+|   +---apollo510_evb
+|   |   +---bsp <Board Specific code>
+|   |   ∟---examples
+├── CMSIS
+│   ├── ARM <ARM CMSIS definitions and functions>
+│   ├── AmbiqMicro <Ambiq specific definitions and functions in CMSIS register format>
++---devices <Device drivers>
++---docs
+|   +---example_guide
+|   +---licenses
+|   +---registers <Register Documentation>
+|   +---releasenotes <Release Notes and Change History>
+|   ∟---user_guide <Doxygen User Guide>
+├+---makedefs <Part of build infrastructure>
++---mcu <HAL and Register definitions>
+|   ∟---apollo510
++---pack
+|   ∟---SVD
++---third_party <Third Party Code/Documents>
+|   +---crypto <Crypto library from ARM>
+|   +---FatFs <Generic FatFS implementation from open source>
+|   +---FreeRTOSv10.5.1 <Reference FreeRTOS implementation>
+|   +---LVGL <Light and Versatile Graphics Library implementation>
+|   +---SEGGER <Segger RTT implementation>
+|   +---ThinkSi <ThinkSilicon NemaGFX Graphics Library assets>
+|   +---tinyusb <TinyUSB USB stack implementation>
+|   ∟---uecc <small and fast ECDH and ECDSA implementation>
++---tools
+|   +---apollo5
+|   +---apollo510_scripts <Apollo510 Provisioning and Image generation/update tools, along with SBL updates>
+|   +---ble_throughput_app 
+|   +---bootloader_scripts
+|   +---bsp_generator <Tools for automated BSP generation>
+|   +---config <Part of build infrastructure>
+|   +---linker_config <Part of build infrastructure>
+|   ∟---syspll-cfg <Spreadsheet tool to configure PLL for audio peripherals>
+∟---utils <General utilities and functions>
+

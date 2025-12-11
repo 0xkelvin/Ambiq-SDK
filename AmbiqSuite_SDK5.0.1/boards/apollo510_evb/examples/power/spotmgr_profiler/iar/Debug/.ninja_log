@@ -1,0 +1,8 @@
+# ninja log v5
+0	964	7810588757965544	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/spotmgr_profiler/iar/bin/am_util_delay.o	f13afedcccb00080
+967	1921	7810588767156916	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/spotmgr_profiler/iar/bin/am_resources.o	2cf0c720998f34cc
+1925	2462	7810588772790775	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/spotmgr_profiler/iar/bin/startup_iar.o	53adea58e26eb1f
+2464	2820	7810588775604933	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/spotmgr_profiler/iar/bin/am_util_stdio.o	810772b416687309
+2941	3857	7810588786766346	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/spotmgr_profiler/iar/bin/spotmgr_profiler.o	94e324dc3f12702f
+3858	4821	7810588796492186	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/spotmgr_profiler/iar/bin/spotmgr_profiler.out	f81b056340d5c2f1
+4824	4858	7810588797273411	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/spotmgr_profiler/iar/bin/spotmgr_profiler.bin	b4e072610509bfcc

@@ -1,0 +1,10 @@
+# ninja log v5
+1	1416	7810585367246358	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/am_resources.o	8a5d8459c6003745
+1784	3053	7810585384644156	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/am_devices_led.o	a3a9f5e1d1521156
+3057	4825	7810585401957250	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/watchdog.o	a57cef20b3497951
+4828	5072	7810585404929821	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/am_util_stdio.o	d917926a64d80977
+5077	6050	7810585414570737	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/am_util_delay.o	eb38bda84a3f6644
+6051	6954	7810585423632949	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/am_util_faultisr.o	7dab8611d7e5bc39
+6956	7522	7810585429385856	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/startup_iar.o	5dfa7c6f13512ba8
+7524	8104	7810585434607858	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/watchdog.out	dc8e2156df3a00a5
+8106	8137	7810585435991775	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/watchdog/iar/bin/watchdog.bin	53c0849f1d88d1af

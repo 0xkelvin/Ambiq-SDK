@@ -1,0 +1,14 @@
+# ninja log v5
+0	1053	7810575007035120	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/am_devices_dc_xspi_raydium.o	c5cc48fbbb57dbb4
+1055	2213	7810575018937153	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/am_devices_dc_dsi_raydium.o	6946ce5038667171
+2218	2306	7810575020177163	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/nema_event.o	3c54fd58ea545fd7
+2309	2551	7810575022504370	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/am_util_stdio.o	56f9495095fac375
+2553	3430	7810575031102874	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/am_resources.o	2ef7c2af24677e56
+3432	4514	7810575042001991	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/nema_dc_hal.o	f7d4e6adc2aa1877
+4517	5355	7810575050425306	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/am_util_delay.o	32f616f073b10773
+5358	12642	7810575123045282	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/nemadc_darkening_effect.o	dfd72bb02b6c7e46
+12646	13252	7810575129546415	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/startup_iar.o	bfa46ac2c7c58877
+13257	14364	7810575139906301	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/nema_hal.o	1748a55755629d5c
+14366	15318	7810575150202505	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/nema_utils.o	7f3f503acfe9c17f
+15321	15687	7810575153770253	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/nemadc_darkening_effect.out	cac5b4637a69182b
+15690	15755	7810575154899928	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_darkening_effect/iar/bin/nemadc_darkening_effect.bin	8d462d6c2fa7f141

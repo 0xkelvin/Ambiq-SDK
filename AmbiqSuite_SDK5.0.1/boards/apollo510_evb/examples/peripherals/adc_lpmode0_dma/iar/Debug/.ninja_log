@@ -1,0 +1,10 @@
+# ninja log v5
+0	1470	7810582252272655	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/adc_lpmode0_dma.o	64a5a28f58f50e35
+1477	2556	7810582262988239	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_devices_led.o	2a371eb1ccd1470d
+2560	3523	7810582272259998	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/startup_iar.o	e6229b04f2a696a9
+3525	4510	7810582282451812	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_util_delay.o	179b3d806a0bf92c
+4512	5723	7810582294624498	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_resources.o	99932110f13e4bfa
+5726	6887	7810582306306319	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_util_faultisr.o	56cb81bdd6f42530
+6889	7147	7810582309176299	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_util_stdio.o	f4aac1055ba3ab33
+7149	7926	7810582317051531	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/adc_lpmode0_dma.out	92c93526a8973f34
+7927	7972	7810582317661009	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/adc_lpmode0_dma.bin	ea0d340611df11c9

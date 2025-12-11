@@ -1,0 +1,14 @@
+# ninja log v5
+0	75	7810574869000794	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/nema_event.o	7c864062adb2bcd6
+76	1055	7810574878611896	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/am_devices_dc_dsi_raydium.o	9fccccbe1c1a5c65
+1060	2041	7810574888379460	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/am_devices_dc_xspi_raydium.o	a8f894a2cb40e11
+2044	3142	7810574899342972	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/nema_dc_hal.o	e8def5c51a16a813
+3146	3402	7810574902085139	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/am_util_stdio.o	b3b63e3385fc5106
+3404	4285	7810574910706160	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/am_resources.o	6865b73343d2583c
+4287	5188	7810574919800253	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/am_util_delay.o	dbdec3800257b73
+5191	6408	7810574931302783	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/nema_hal.o	cb2e702d1c34376c
+6411	7532	7810574943121317	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/nema_utils.o	dc94deba0b7cf0d8
+7535	8779	7810574955592151	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/nemadc_4layers.o	73314db91b7d0535
+8782	9309	7810574961059750	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/startup_iar.o	a29bf2e71f9ed2f9
+9312	9773	7810574965590245	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/nemadc_4layers.out	1a5c16a192776a11
+9775	9798	7810574966425896	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_4layers/iar/bin/nemadc_4layers.bin	afe1164c2f3ee1f6

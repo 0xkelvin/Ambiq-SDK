@@ -1,0 +1,13 @@
+# ninja log v5
+1	1036	7810575182147442	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/am_devices_dc_dsi_raydium.o	71e70f5b515c961
+1038	2017	7810575191985643	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/am_resources.o	2d55722e538bdbb1
+2022	2949	7810575201379897	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/am_util_delay.o	b9918bc57538f486
+2952	3930	7810575211003741	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/nema_hal.o	7194e4630e408823
+3933	5036	7810575222229169	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/nema_dc_hal.o	9ffb498655666957
+5039	5283	7810575224744407	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/am_util_stdio.o	1f0324424391863c
+5285	5394	7810575225904398	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/nema_event.o	5b45f9b46d8e0324
+5396	7659	7810575248284090	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/nemadc_dsi_power_test.o	3eee257a8e5470f7
+7661	8739	7810575259252191	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/nema_utils.o	e2dee27acbfa33d4
+8742	9359	7810575265319612	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/startup_iar.o	1f9cc65d92743f54
+9362	9887	7810575270633717	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/nemadc_dsi_power_test.out	450dde5183e6290c
+9889	9925	7810575271544850	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_dsi_power_test/iar/bin/nemadc_dsi_power_test.bin	4ee8174c2be691e2

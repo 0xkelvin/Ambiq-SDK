@@ -1,0 +1,13 @@
+# ninja log v5
+0	1252	7810577073662113	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/am_devices_display_generic.o	7660fd872e265358
+1254	2155	7810577082736338	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/am_resources.o	a98e886fa3435693
+2159	3155	7810577092561532	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/nema_hal.o	e2347f59223041fd
+3158	3404	7810577095399109	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/am_util_stdio.o	f78ed44bc08dcf69
+3408	4549	7810577106435836	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/nema_dc_hal.o	435c40b01ad708b3
+4551	4664	7810577107895846	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/nema_event.o	6c9fcfa70992842e
+4667	5618	7810577117016609	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/am_util_delay.o	dee1347048dfdb22
+5619	6947	7810577130207991	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/nemagfx_grad.o	aeffa1001f16fda5
+6950	8028	7810577141148737	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/nema_utils.o	c12bc8693ee2080c
+8031	8635	7810577147576578	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/startup_iar.o	6887ff8c9b3a47c7
+8638	9083	7810577152090982	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/nemagfx_grad.out	9658448ebf7fc89c
+9085	9122	7810577152839341	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_grad/iar/bin/nemagfx_grad.bin	211f5e9b8044ad4e

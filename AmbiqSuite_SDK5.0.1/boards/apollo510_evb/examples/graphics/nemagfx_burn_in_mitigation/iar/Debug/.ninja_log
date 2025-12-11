@@ -1,0 +1,14 @@
+# ninja log v5
+0	96	7810576168706173	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/nema_event.o	e35cddfd188f8d07
+97	1191	7810576179393353	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/am_devices_dc_xspi_raydium.o	5ceddf44a70e84b2
+1195	2260	7810576190162423	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/am_devices_dc_dsi_raydium.o	7272bfc31a15ace7
+2263	2505	7810576192934437	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/am_util_stdio.o	1e7ad2f8fc126a9b
+2508	3377	7810576201428223	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/am_util_delay.o	c68cf52949cb0d39
+3379	4561	7810576213077376	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/nema_dc_hal.o	93cfb8ab7dd5b596
+4564	5527	7810576222845186	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/am_resources.o	456e059940bc13a5
+5530	6732	7810576234822254	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/nemagfx_burn_in_mitigation.o	86b434ba74a435c1
+6735	7434	7810576242041554	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/startup_iar.o	10e7c4e5facb2df5
+7437	8644	7810576253609039	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/nema_utils.o	ab4bdf7ac27bd83b
+8646	9819	7810576265742621	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/nema_hal.o	65d1389e2e22cecb
+9822	10314	7810576270622620	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/nemagfx_burn_in_mitigation.out	24dc615b199068b
+10318	10358	7810576271651879	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_burn_in_mitigation/iar/bin/nemagfx_burn_in_mitigation.bin	82f8f4b05504c6b5

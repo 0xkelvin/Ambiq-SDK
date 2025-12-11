@@ -1,0 +1,14 @@
+# ninja log v5
+1	92	7810575300602307	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/nema_event.o	f33d9f6802ab1d39
+92	1100	7810575310303577	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/am_devices_dc_dsi_raydium.o	80ee7027ad38df69
+1104	2231	7810575321640063	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/am_devices_dc_xspi_raydium.o	3c87584639f94a61
+2234	2463	7810575324206904	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/am_util_stdio.o	981677ac72091abe
+2466	3618	7810575335539712	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/nema_dc_hal.o	3c16cc07cb6cafde
+3619	4506	7810575344348353	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/am_resources.o	d6b98971d147364b
+4509	5390	7810575353159378	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/am_util_delay.o	25dcf85719ee3374
+5393	6368	7810575362896036	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/nema_hal.o	ead370b2cf76d622
+6371	7199	7810575370835564	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/startup_iar.o	efca3ff03b86450d
+7202	8214	7810575381561073	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/nema_utils.o	cf2bd9863f780f69
+8216	17401	7810575473257879	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/nemadc_scrolling_effect.o	1542d22ad93dd218
+17404	17728	7810575476960013	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/nemadc_scrolling_effect.out	c082755643b4ff85
+17732	17755	7810575477490008	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemadc_scrolling_effect/iar/bin/nemadc_scrolling_effect.bin	68ad48e3e2bde319

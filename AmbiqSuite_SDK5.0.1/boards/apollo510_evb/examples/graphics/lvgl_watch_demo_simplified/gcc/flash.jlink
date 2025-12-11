@@ -1,0 +1,8 @@
+device AP510NFA-CBR
+if swd
+speed 4000
+connect
+loadbin bin/lvgl_watch_demo_simplified.bin 0x00410000
+r
+q
+

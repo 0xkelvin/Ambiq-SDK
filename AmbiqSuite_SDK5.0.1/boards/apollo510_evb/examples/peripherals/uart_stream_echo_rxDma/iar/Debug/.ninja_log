@@ -1,0 +1,13 @@
+# ninja log v5
+0	955	7810585007249906	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/am_resources.o	8c54d04a5675c47d
+959	2086	7810585018389567	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/am_util_delay.o	2a89c26c086d64d
+2090	6255	7810585059126808	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/am_util_string.o	a325ebac7113f394
+6257	6972	7810585067287769	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/startup_iar.o	ee795c8b5107a4eb
+6974	8650	7810585084180999	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/am_util_stdio.o	d8b495515cae4d74
+8651	9635	7810585093981244	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/am_util_id.o	dd6412c8b83259d3
+9637	11769	7810585114951127	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/am_util_faultisr.o	4f46af2b1679eae
+11772	12883	7810585126420161	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/uart_example_timer_control.o	d9f8d0b517269501
+12886	14121	7810585138639783	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/uart_stream_common.o	b2e1024c3d7c2a94
+14124	15671	7810585154500308	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/uart_stream_echo_rxDma.o	f9ac18b2f2ff8f04
+15674	16286	7810585159187873	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/uart_stream_echo_rxDma.out	ef5c4197581f3cf
+16289	16322	7810585161239932	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/uart_stream_echo_rxDma/iar/bin/uart_stream_echo_rxDma.bin	f06e52cf956c4195

@@ -1,0 +1,26 @@
+# ninja log v5
+0	1489	7810580424269148	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/display_task.o	bf1862d0ecf73307
+1804	3075	7810580438113164	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/am_util_delay.o	354132b5708f45f0
+3083	3457	7810580444027892	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/event_groups.o	2a0e78104a3872d6
+3460	3891	7810580448090399	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/heap_4.o	2eceb09cc0207f20
+3971	4327	7810580452430263	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/am_util_stdio.o	3cf928ab0673347f
+4329	5530	7810580463997832	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/nema_hal.o	55ca3d5d0b5b9c85
+5532	7003	7810580479137992	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/nema_dc_hal.o	fdd4c6620d0a0c0f
+7006	7227	7810580481518227	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/list.o	e8f2eafef6547182
+7231	8740	7810580495000270	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/nema_event.o	c78a5bba596be401
+8742	10081	7810580509112964	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/port_stimer.o	5d363d2426302ed0
+10084	11300	7810580522256417	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/nemagfx_watchface.o	a054864b344fd0d6
+11303	11516	7810580524282181	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/port.o	3559025f5180d5ee
+11520	12650	7810580535359275	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/nema_utils.o	5df9e2f2390a60f8
+12652	13927	7810580547656353	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/port_systick_stimer.o	6731b39244327cf
+13930	15116	7810580560360091	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/am_devices_display_generic.o	91842143dbd691bf
+15119	16136	7810580570785756	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/am_resources.o	2913d4ae255babf2
+16139	17110	7810580580318639	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/rtos.o	e66dfe289e630fc1
+17113	17445	7810580583908360	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/queue.o	4f73ef6725560bb3
+17449	18159	7810580590556036	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/startup_iar.o	caadda4b937a52f1
+18161	18911	7810580598590194	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/tasks.o	b66dd4024fed7524
+18913	21265	7810580622177231	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/render_task.o	db38935849023795
+21267	22301	7810580632714307	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/timers.o	d0657c6800df3e0c
+22304	22372	7810580633518615	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/portasm.o	85c1a7e538e95458
+22374	22963	7810580639140409	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/nemagfx_watchface.out	e7de44cee1858709
+22965	22993	7810580639772863	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_watchface/iar/bin/nemagfx_watchface.bin	dd8f926dfb6b1278

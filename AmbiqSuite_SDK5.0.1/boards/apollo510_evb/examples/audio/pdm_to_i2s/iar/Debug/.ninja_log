@@ -1,0 +1,9 @@
+# ninja log v5
+1	988	7810566252561010	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/am_resources.o	2096107ce039474d
+990	1971	7810566262346876	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/am_util_delay.o	59b2cc2b4e01c1d0
+1975	2499	7810566267876196	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/startup_iar.o	85d16df674fe2780
+2501	3432	7810566277065481	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/am_util_faultisr.o	675db4a089f60fab
+3434	4891	7810566291683804	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/am_util_stdio.o	d1b7947adad060f3
+4893	5966	7810566302201056	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/pdm_to_i2s.o	9c99909db9d1458e
+5967	6437	7810566307104734	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/pdm_to_i2s.out	4d797235d2fc9c84
+6439	6472	7810566308042172	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/pdm_to_i2s/iar/bin/pdm_to_i2s.bin	f7b276a8af9fbfe8

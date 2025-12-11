@@ -1,0 +1,10 @@
+# ninja log v5
+0	1897	7810583705342346	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/am_devices_led.o	6a947828fe8061c8
+2338	4052	7810583731919143	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/am_resources.o	1735aa9add9c01f9
+4057	5486	7810583746031222	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/stimer.o	f461071d8431c808
+5489	6465	7810583755785347	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/am_util_faultisr.o	a401cdbf8b78bb2a
+6499	8094	7810583767202620	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/am_util_delay.o	685fc4cfe6249010
+8097	8869	7810583779647097	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/startup_iar.o	91ce06858e4c9a6b
+8871	9153	7810583783100475	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/am_util_stdio.o	119442882b80cc53
+9155	9888	7810583790443041	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/stimer.out	6dde211371aaf754
+9890	10146	7810583793321988	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/stimer/iar/bin/stimer.bin	478f5faeacf2025

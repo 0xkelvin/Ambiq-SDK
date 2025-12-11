@@ -1,0 +1,10 @@
+# ninja log v5
+0	1023	7810583448817118	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/am_resources.o	f1b511ccade07399
+1026	2204	7810583460714715	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/am_devices_led.o	e1a7f056ccaacc48
+2208	3234	7810583471214587	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/reset_states.o	1f42e7abfca38a44
+3237	4718	7810583485141530	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/am_util_delay.o	83d8c6c4cbdcdb9e
+5015	5964	7810583498554528	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/startup_iar.o	49e6e13d26c5ac88
+5967	7261	7810583511306866	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/am_util_faultisr.o	a57a819b0fce609
+7263	7739	7810583516245398	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/am_util_stdio.o	d1569b76dfb8da8a
+7742	8510	7810583523966961	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/reset_states.out	355e7e1523560723
+8512	8570	7810583524913728	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/reset_states/iar/bin/reset_states.bin	e74589a625c16714

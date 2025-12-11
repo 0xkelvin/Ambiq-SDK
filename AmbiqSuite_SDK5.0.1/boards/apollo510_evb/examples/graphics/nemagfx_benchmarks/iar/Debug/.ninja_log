@@ -1,0 +1,27 @@
+# ninja log v5
+0	1212	7810575761480756	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/am_devices_display_generic.o	c900c26f99797f38
+1214	2261	7810575771941529	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/am_resources.o	29992321f46ef9ec
+2267	3398	7810575783092145	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_draw_line.o	6b2e68f6085b7391
+3401	4427	7810575793633521	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_blit.o	f097af25ce748e56
+4431	5676	7810575805760121	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_draw_circle.o	768af8e317649c93
+5679	6102	7810575809948047	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/am_util_stdio.o	941e377d27eb7eef
+6105	7273	7810575821618073	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/am_util_delay.o	73487d7625c91742
+7275	8533	7810575834208432	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/DejaVuSerif12pt8b.o	353e9b4f673fe5bd
+8536	9719	7810575846379612	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_fill_quad.o	9aab0a0c3d43faaf
+9722	10885	7810575858153689	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_fill_rect.o	132a82867644255b
+10889	12118	7810575870084730	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_draw_string.o	a43d041786411c72
+12122	13260	7810575881708077	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_draw_rect.o	60c2c8cbde64bea6
+13263	14470	7810575894101354	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_textured_quad.o	e25b02397b8e6916
+14473	15678	7810575906087018	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_textured_tri.o	c3dbce75b41010bb
+15682	16911	7810575918067693	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_stretch_blit.o	fcace7342578d253
+16915	18119	7810575929776843	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_fill_tri.o	512cd91f44898445
+18122	19422	7810575943422383	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/bench_stretch_blit_rotate.o	35dce0a87812005f
+19426	20630	7810575955723528	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/nema_hal.o	f4d5f380a6cc931
+20634	21663	7810575966016264	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/nemagfx_benchmarks.o	33a756b9f79f253c
+21666	22907	7810575978536174	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/nema_dc_hal.o	9fa0ef3131565e13
+22910	23873	7810575988081790	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/nema_utils.o	8cbab24966eaa432
+23876	23983	7810575989582573	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/nema_event.o	7c169bfdceb17fab
+23986	25372	7810576003343232	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/utils.o	59b9973ee48e88ee
+25374	25823	7810576007939934	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/startup_iar.o	7b8a201536b8a126
+25826	26307	7810576012574550	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/nemagfx_benchmarks.out	50a9cd5037d64f
+26309	26323	7810576013184560	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_benchmarks/iar/bin/nemagfx_benchmarks.bin	696c82370c526299

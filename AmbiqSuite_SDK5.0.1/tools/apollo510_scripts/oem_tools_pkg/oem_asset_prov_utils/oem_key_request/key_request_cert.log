@@ -1,0 +1,7 @@
+2020-09-23 15:27:44.964565: OEM key request Utility started (Logging to key_request_cert.log)
+oem-main-keypair: ../../am_oem_key_gen_util/oemRSAKeys/oemRootCertKeyPair.pem
+oem-main-keypwd: ../../am_oem_key_gen_util/oemRSAKeys/pwdOemRootCertKey_Rsa.txt
+oem-enc-pubkey: ../../am_oem_key_gen_util/oemRSAKeys/oemKrtlKeyReqPublicKey.pem
+oem-cert-pkg: b'oem_request_pkg.bin'
+**** Generate OEM key requesting certificate ****
+**** Generate OEM key requesting successfully ****

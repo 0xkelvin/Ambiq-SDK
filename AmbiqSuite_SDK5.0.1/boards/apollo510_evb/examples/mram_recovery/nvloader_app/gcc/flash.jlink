@@ -1,0 +1,8 @@
+device AP510NFA-CBR
+if swd
+speed 4000
+connect
+loadbin bin/nvloader_app.bin 0x20010000
+r
+q
+

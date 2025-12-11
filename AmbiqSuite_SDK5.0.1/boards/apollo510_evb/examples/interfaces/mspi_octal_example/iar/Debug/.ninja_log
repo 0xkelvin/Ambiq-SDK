@@ -1,0 +1,11 @@
+# ninja log v5
+0	1864	7810581719475552	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/am_devices_mspi_is25wx064.o	880dea9c405b4731
+1883	3882	7810581738804995	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/am_devices_mspi_atxp032.o	98189678f8bb6f4d
+3887	5238	7810581752857569	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/am_resources.o	9c312d6531f54ff5
+5240	6716	7810581767705408	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/am_util_delay.o	e157ee383b048836
+6721	7709	7810581777769875	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/am_util_faultisr.o	9b3e88027f03a255
+7712	7984	7810581780438206	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/am_util_stdio.o	7beb23ac7764eab9
+7987	9257	7810581793242092	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/mspi_octal_example.o	d4ef8bd41e12c84e
+9259	10007	7810581801088047	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/startup_iar.o	8264fdcb1203e958
+10010	10466	7810581805372538	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/mspi_octal_example.out	47c12a8d1d19f014
+10468	10484	7810581806032585	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/mspi_octal_example/iar/bin/mspi_octal_example.bin	a606160fb6afe11e

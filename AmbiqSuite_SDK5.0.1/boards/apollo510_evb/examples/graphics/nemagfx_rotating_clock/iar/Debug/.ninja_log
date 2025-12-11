@@ -1,0 +1,13 @@
+# ninja log v5
+1	1002	7810577559062687	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/am_resources.o	4afadaf2000ba71e
+1004	2215	7810577571058142	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/am_devices_display_generic.o	fbd1ad42fa6ce38c
+2220	3190	7810577580908219	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_hal.o	78276edaf3bce6f4
+3194	3273	7810577582067658	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_event.o	e1c83fa8abf93966
+3276	4126	7810577590216668	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/am_util_delay.o	c1f0ab9ffd3e993c
+4128	4399	7810577593201905	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/am_util_stdio.o	ee3d78e257806a60
+4401	5620	7810577604988297	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_dc_hal.o	798df4441cdf31e6
+5621	6269	7810577611316282	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/startup_iar.o	3e28cf4e745895af
+6272	7379	7810577622854631	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_utils.o	32e8154d3575e194
+7381	10392	7810577652720236	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/nemagfx_rotating_clock.o	ac9f834ba7d9d507
+10395	10954	7810577658704020	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/nemagfx_rotating_clock.out	8092d2b61f9006ed
+10957	11049	7810577659705670	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_clock/iar/bin/nemagfx_rotating_clock.bin	4446fe8016e2b77c

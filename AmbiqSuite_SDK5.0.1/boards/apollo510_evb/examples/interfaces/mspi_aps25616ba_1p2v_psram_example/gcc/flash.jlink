@@ -1,0 +1,8 @@
+device AP510NFA-CBR
+if swd
+speed 4000
+connect
+loadbin bin/mspi_aps25616ba_1p2v_psram_example.bin 0x00410000
+r
+q
+

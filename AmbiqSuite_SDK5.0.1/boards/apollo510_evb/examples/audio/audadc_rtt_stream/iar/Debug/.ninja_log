@@ -1,0 +1,12 @@
+# ninja log v5
+1	986	7810565870346866	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/am_resources.o	4921392c08f8247
+988	2035	7810565880713329	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/am_devices_led.o	3b71482aec226fc4
+2039	2379	7810565884479342	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT.o	93ae2ad933c82f16
+2382	3226	7810565892841388	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_delay.o	39219f0eb190f3da
+3228	4123	7810565901752807	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.o	ebdec5a7619d47f6
+4126	5003	7810565910489213	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_faultisr.o	d462617f96f1406b
+5006	5248	7810565913198154	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_stdio.o	401369bf37722f50
+5250	5806	7810565918766908	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/startup_iar.o	b79f9c1ce0e28f51
+5808	6004	7810565920779262	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT_printf.o	d2fe2cb139fcaa38
+6006	6399	7810565924626139	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.out	5abc543ff3a33fbe
+6401	6430	7810565925251406	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.bin	929c53ea8e24712b

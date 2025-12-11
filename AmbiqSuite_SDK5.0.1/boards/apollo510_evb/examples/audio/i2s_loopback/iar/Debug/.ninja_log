@@ -1,0 +1,9 @@
+# ninja log v5
+1	1048	7810565966669379	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/am_resources.o	99f74db2ec9c0dcc
+1050	2060	7810565977062825	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/am_util_delay.o	bdb9cb79278dcc7f
+2064	3476	7810565991513143	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/am_util_stdio.o	96e70725d2b183e9
+3479	4000	7810565996619900	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/startup_iar.o	ad53c353f4c4ba01
+4002	4957	7810566005871638	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/am_util_faultisr.o	74db6d6df82df9fd
+4959	6302	7810566019300843	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/i2s_loopback.o	7b46dd47325c7ab0
+6305	6636	7810566022953898	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/i2s_loopback.out	e337d14848572a48
+6639	6681	7810566023891386	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/audio/i2s_loopback/iar/bin/i2s_loopback.bin	de659301ea1d8f6c

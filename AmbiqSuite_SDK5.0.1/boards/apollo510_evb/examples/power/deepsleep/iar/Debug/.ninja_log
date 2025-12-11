@@ -1,0 +1,8 @@
+# ninja log v5
+1	8324	7810588407208942	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/deepsleep/iar/bin/am_util_delay.o	af99ec1e671c7834
+8328	9358	7810588417623573	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/deepsleep/iar/bin/am_resources.o	30a8e4384aeb34d9
+9362	9649	7810588420598438	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/deepsleep/iar/bin/am_util_stdio.o	277e98961e6d41d8
+9651	10671	7810588430757973	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/deepsleep/iar/bin/deepsleep.o	209421bc29585726
+10750	11232	7810588436338327	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/deepsleep/iar/bin/startup_iar.o	141555504b95a8a0
+11235	17083	7810588494852676	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/deepsleep/iar/bin/deepsleep.out	76920efc0736ba13
+17084	17712	7810588501476066	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/deepsleep/iar/bin/deepsleep.bin	71d57789cd7733a

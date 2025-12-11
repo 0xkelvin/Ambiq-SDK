@@ -1,0 +1,14 @@
+# ninja log v5
+0	1020	7810576035778036	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/am_devices_dc_dsi_raydium.o	5323a1c592df24b1
+1022	1112	7810576036938041	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/nema_event.o	3c843918cd15c825
+1117	2152	7810576047061543	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/am_devices_dc_xspi_raydium.o	c855c857fd2bd490
+2153	2399	7810576049661527	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/am_util_stdio.o	ac21eff16a9fc74f
+2402	3300	7810576058607083	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/am_util_delay.o	e034e232b225e41c
+3302	4162	7810576067156882	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/am_resources.o	1b325c0becca11b6
+4165	5304	7810576078564697	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/nema_dc_hal.o	964df64ad75dc918
+5307	6422	7810576088993962	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/nema_hal.o	64bfe5aea06bb16d
+6425	9266	7810576118113175	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/nemagfx_blend.o	f440f8407f039fc
+9269	10352	7810576129192937	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/nema_utils.o	c6c4382d3bff35ae
+10355	11016	7810576135449306	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/startup_iar.o	2d6562a944207a7c
+11018	11549	7810576141009264	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/nemagfx_blend.out	6b65a431535ebae3
+11551	11588	7810576141903237	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_blend/iar/bin/nemagfx_blend.bin	38c6ca1e0a0d2af6

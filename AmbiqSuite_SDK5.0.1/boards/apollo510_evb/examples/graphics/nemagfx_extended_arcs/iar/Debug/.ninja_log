@@ -1,0 +1,15 @@
+# ninja log v5
+1	1172	7810576758998117	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/am_devices_display_generic.o	16d0e32445200dd3
+1174	2089	7810576768627355	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/am_resources.o	7af9751c56e2c80b
+2093	2953	7810576777213821	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/am_util_delay.o	b0a069a9625cc86a
+2955	3868	7810576786289466	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/gui_task.o	740bf71eaef8b0d
+3871	3967	7810576787539458	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_event.o	44638e9b6d624c9a
+3970	4204	7810576789889454	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/am_util_stdio.o	6abea11d00269eee
+4206	5411	7810576801784834	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_dc_hal.o	8775df9501b9d25b
+5413	6572	7810576813460362	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_hal.o	a49035076984d89e
+6575	7714	7810576824762640	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_utils.o	ff1b9c11b0451e48
+7718	7829	7810576826012657	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/rtos.o	f1654a5f771cec9f
+7832	9601	7810576843168178	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/nemagfx_extended_arcs.o	90795df6a8a73e0
+9603	10240	7810576850176285	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/startup_iar.o	2edc7f43f2c67bd8
+10243	10726	7810576855103575	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/nemagfx_extended_arcs.out	9e09550818dc6d41
+10728	10801	7810576856111275	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_extended_arcs/iar/bin/nemagfx_extended_arcs.bin	b0e41285d14143f6

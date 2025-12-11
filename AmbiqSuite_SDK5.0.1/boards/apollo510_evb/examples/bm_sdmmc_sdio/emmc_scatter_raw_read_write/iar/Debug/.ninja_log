@@ -1,0 +1,11 @@
+# ninja log v5
+0	112	7810566659578942	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/am_util_debug.o	7c26068f337349f6
+113	1113	7810566669304898	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/am_resources.o	516e7b3f64610b81
+1117	2130	7810566679548833	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/am_util_delay.o	b32ed961fab7dcd6
+2132	2965	7810566688046284	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/am_util_faultisr.o	68ee3f5ce072e1e8
+2968	3198	7810566690467718	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/am_util_stdio.o	24409ae6585453ea
+3200	4080	7810566698949288	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/am_util_id.o	df07d1a8c8c6e34b
+4081	5203	7810566710090046	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/emmc_scatter_raw_read_write.o	590b4305dd96a82c
+5206	5759	7810566716065953	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/startup_iar.o	d417a15a0cfe8d5
+5762	6235	7810566719972193	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/emmc_scatter_raw_read_write.out	743d0b6d8c02b5d8
+6236	6277	7810566721465212	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/bm_sdmmc_sdio/emmc_scatter_raw_read_write/iar/bin/emmc_scatter_raw_read_write.bin	c6224e16f238cd3d

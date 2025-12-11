@@ -1,0 +1,9 @@
+# ninja log v5
+1	1523	7810580692322866	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/am_util_delay.o	80b362073d98c786
+1593	2711	7810580704220322	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/am_resources.o	8126de31094949d9
+2724	3282	7810580710003601	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/startup_iar.o	79d8585c22401b7f
+3285	6588	7810580741247564	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/ios_burst_controller.o	eb05cdb387f467f9
+6594	7562	7810580752769934	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/ios_burst_common.o	5996f3cdfa90c10a
+7565	7857	7810580755916938	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/am_util_stdio.o	e20864035d5dc5e7
+7860	8700	7810580761079769	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/ios_burst_controller.out	208e6a4955a2ebcf
+8702	8724	7810580764941011	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/interfaces/ios_burst/controller/iar/bin/ios_burst_controller.bin	c52f1260a832dc19

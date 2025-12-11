@@ -1,0 +1,13 @@
+
+apollo510 SBL Updates
+
+SBL v1.20:
+- The OTA update file 'sbl_ota_v1p20.bin' is the current SBL at the time of the RTM release.
+  its OTA file is included for testing and verification of the SBL OTA update process. 
+
+SBL v1.23:
+- Earlier versions of SBL (SBL v1.20 and prior) would not de-configure SWO pin correctly if an alternate SWO pin was used.
+  - This only occurred when InfoC was configured to use a pin other than the default pin 28.
+- Fixed an issue with the last byte of a wired reset ACK being chopped or lost.
+- Fixed an issue with the OEM Key revoke operation.
+- The memory sizes reported are now based on the SKU register.

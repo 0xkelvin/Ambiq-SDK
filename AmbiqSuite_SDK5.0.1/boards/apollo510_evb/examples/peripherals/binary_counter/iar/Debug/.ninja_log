@@ -1,0 +1,11 @@
+# ninja log v5
+0	1192	7810582569147021	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/am_util_id.o	9dcd2d10b5a4574
+1335	2479	7810582582292157	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/binary_counter.o	daeb3494ef3090cd
+2484	3584	7810582593219161	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/am_util_delay.o	eaecb09cbcb80ba8
+3587	4690	7810582603913135	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/am_util_faultisr.o	ebd6e5b9f94599ba
+4716	5056	7810582608099513	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/am_util_stdio.o	43cd5ab3df2585a6
+5058	6092	7810582618292322	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/am_resources.o	4bf13b3f81a8ee65
+6094	9028	7810582647655042	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/am_devices_led.o	4ff071de8556d5f9
+9031	10295	7810582659380957	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/startup_iar.o	88f333f32bd587ae
+10299	11061	7810582668240709	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/binary_counter.out	1e4c70648e1f7f8c
+11062	11077	7810582668710693	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/peripherals/binary_counter/iar/bin/binary_counter.bin	ee5a995cbcea92fd

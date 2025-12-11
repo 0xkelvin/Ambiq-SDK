@@ -1,0 +1,14 @@
+# ninja log v5
+0	1079	7810578162561914	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/am_devices_dc_xspi_raydium.o	2212659286fac9af
+1105	1224	7810578164407098	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/nema_event.o	dc1dd02f33550e5d
+1229	2249	7810578174401926	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/am_devices_dc_dsi_raydium.o	3fbc413f70d3472
+2251	2518	7810578177281377	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/am_util_stdio.o	1eda9cc340e180ca
+2522	3633	7810578188167207	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/nema_dc_hal.o	fc130eaf6be87f76
+3635	4524	7810578197218847	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/am_resources.o	9907dbbbb2614df1
+4527	5463	7810578206645209	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/am_util_delay.o	1db26042db83a362
+5465	6738	7810578219259136	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/nema_hal.o	949cb204da0eb965
+6741	7799	7810578228988108	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/nema_utils.o	b5b4414d57d66e15
+7802	8547	7810578237541659	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/startup_iar.o	fa871067d6b7d0df
+8550	11276	7810578264481344	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/nemagfx_tsc_fb.o	5cb469e75a154fa1
+11278	11697	7810578269077136	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/nemagfx_tsc_fb.out	31ffb42054df6da2
+11700	11779	7810578270170915	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_tsc_fb/iar/bin/nemagfx_tsc_fb.bin	356346965751e7c4

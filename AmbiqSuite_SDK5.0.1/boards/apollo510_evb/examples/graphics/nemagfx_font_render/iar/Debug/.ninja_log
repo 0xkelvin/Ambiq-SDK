@@ -1,0 +1,14 @@
+# ninja log v5
+1	1242	7810576896574089	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/am_devices_display_generic.o	20026404d6d54ecd
+1244	2255	7810576906602927	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/am_resources.o	bbd2a2b2bdeaf94c
+2262	3096	7810576915197508	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/am_util_delay.o	729549e70a6b70ad
+3098	10818	7810576991837404	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/main.o	5330a4f7b37acc3d
+10823	12243	7810577006191126	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/nema_dc_hal.o	e6797eebb665e1a3
+12247	12513	7810577009391116	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/am_util_stdio.o	1a09f8f90c3eeee6
+12516	12612	7810577010441140	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/nema_event.o	9b8fe31bdc14fd92
+12614	13628	7810577020336818	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/nemagfx_font_render.o	3f03c1fb3b4f8e5f
+13630	14169	7810577026094222	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/startup_iar.o	e69fab14678160a4
+14173	15058	7810577034757467	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/nema_utils.o	9c1d1694c5315c37
+15060	15911	7810577043513699	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/nema_hal.o	df9376585f2edef0
+15914	16376	7810577048179594	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/nemagfx_font_render.out	cd2685b888514cbb
+16379	16419	7810577048945458	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_font_render/iar/bin/nemagfx_font_render.bin	c2f1db431030f97a

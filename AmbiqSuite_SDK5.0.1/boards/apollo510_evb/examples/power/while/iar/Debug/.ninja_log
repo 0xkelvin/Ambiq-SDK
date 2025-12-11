@@ -1,0 +1,8 @@
+# ninja log v5
+0	1730	7810588930413741	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/while/iar/bin/am_util_stdio.o	15b14a6fe3fd7295
+1731	2662	7810588939344192	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/while/iar/bin/while.o	35cc85c78f758159
+2665	3184	7810588944753201	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/while/iar/bin/startup_iar.o	34d615f9e7885f98
+3186	4158	7810588954278603	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/while/iar/bin/am_util_delay.o	b1a5f56f5c6e86d3
+4160	5058	7810588963288474	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/while/iar/bin/am_resources.o	2906772bfd3e45ff
+5061	5371	7810588966725981	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/while/iar/bin/while.out	d8c446c67e9f009c
+5374	5419	7810588967350936	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/power/while/iar/bin/while.bin	9cb7201431cce697

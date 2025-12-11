@@ -1,0 +1,13 @@
+# ninja log v5
+1	1275	7810577697279032	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/am_devices_display_generic.o	a9a9f47c02802f1a
+1279	2199	7810577706898843	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/am_resources.o	59bb75484b3b4741
+2204	3314	7810577718144525	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/nema_dc_hal.o	cba996b61c017ec0
+3317	3405	7810577719334512	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/nema_event.o	5f4ecc75a7a7f458
+3408	4288	7810577727843934	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/am_util_delay.o	d9df827c243bf9d6
+4289	5269	7810577737706532	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/nema_hal.o	8fbb891fa7d5f39e
+5272	5557	7810577740694030	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/am_util_stdio.o	f8933839c87fe43f
+5560	6240	7810577746774070	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/startup_iar.o	5816a69dba745787
+6242	8372	7810577768317660	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/nemagfx_rotating_crate.o	4c841d80106de3a9
+8375	9420	7810577779094045	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/nema_utils.o	84f16ecb6dce933f
+9424	9887	7810577783849840	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/nemagfx_rotating_crate.out	e1595f114fc7c0eb
+9890	9931	7810577784790019	C:/jenkins-agent/workspace/as510_sdkrel/asws/boards/apollo510_evb/examples/graphics/nemagfx_rotating_crate/iar/bin/nemagfx_rotating_crate.bin	5469e2be37bca3d

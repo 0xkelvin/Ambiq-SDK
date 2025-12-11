@@ -1,0 +1,43 @@
+#******************************************************************************
+#
+# Custom memory map for Apollo510 for 32K ITCM / 128K DTCM (minimum config.)
+#
+# The while example for Apollo510 configures memory as:
+#   ITCM to 32KB:  0x00000000 - 0x00007FFF
+#   DTCM to 128KB: 0x20000000 - 0x2001FFFF
+#   SSRAM none. So allocate a small amount of DTCM as SSRAM.
+#
+# Resulting DTCM memory map:
+# TCM:   0x20000000 - 0x2001DFFF  (120 KB)
+#        8KB shared between SSRAM, heap, and stack.
+# SSRAM: 0x2001E000 - 0x2001E0FF  ( 256 B)
+# HEAP:  0x2001E100 - 0x2001E1FF  ( 256 B)
+# STACK: 0x2001E200 - 0x2001FFFF  (7680 B)
+#
+#******************************************************************************
+
+MemorySections:
+    MCU_ITCM:
+        start:  0x00000000
+        end:    0x00007FFF
+
+    MCU_MRAM:
+        start:  0x00410000
+        end:    0x007FFFFF
+
+    MCU_TCM:
+        start:  0x20000000
+        end:    0x2001DFFF
+
+    SHARED_SRAM:
+        start:  0x2001E000
+        end:    0x2001E0FF
+
+    STACK:
+        start:  0x2001E200
+        end:    0x2001FFFF
+
+    HEAP:
+        start:  0x2001E100
+        end:    0x2001E1FF
+
